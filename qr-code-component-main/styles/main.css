@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap");
+
+:root {
+  /* Colors */
+  --white: hsl(0, 0%, 100%);
+  --slate-300: hsl(212, 45%, 89%);
+  --slate-500: hsl(216, 15%, 48%);
+  --slate-900: hsl(218, 44%, 22%);
+
+  /* Font size */
+  --font-paragraph: 15px;
+  --font-caption: 1.5rem;
+
+  /* Font family */
+  --font-family-outfit: "Outfit", sans-serif;
+
+  /* Font weight */
+  --font-weight-400: 400;
+  --font-weight-700: 700;
+}
+
+@media screen and (min-width: 768px) {
+  :root {
+    --font-paragraph: 16px;
+    --font-caption: 2rem;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: var(--font-family-outfit);
+  background-color: var(--slate-300);
+  max-width: 1440px;
+  padding: 0 24px;
+  margin: 0 auto;
+  display: grid;
+  place-content: center;
+  height: 100svh;
+}
+
+section {
+  background-color: var(--white);
+  max-width: fit-content;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+figure {
+  max-width: 420px;
+}
+
+figcaption {
+  font-size: var(--font-caption);
+  font-weight: var(--font-weight-700);
+  text-align: center;
+  margin: 0.5rem 0;
+  color: var(--slate-900);
+}
+
+img {
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+p {
+  font-size: var(--font-paragraph);
+  text-wrap: wrap;
+  text-align: center;
+  color: var(--slate-500);
+}
