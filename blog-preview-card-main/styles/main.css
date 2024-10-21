@@ -64,6 +64,16 @@ button {
   width: fit-content;
   padding: 8px 16px;
   border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+button:hover {
+  background-color: rgba(244, 208, 78, 0.8);
+}
+
+button:focus {
+  background-color: rgba(244, 208, 78, 0.7);
 }
 
 figure {
