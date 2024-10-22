@@ -1,0 +1,26 @@
+@media screen and (min-width: 768px) {
+  :root {
+    /* Font Sized */
+    --primary-size: 2.25rem;
+    --secondary-size: 1.5rem;
+    --tertiary-size: 1.35rem;
+  }
+
+  body {
+    padding: var(--primary-size);
+  }
+
+  article {
+    margin: var(--primary-size) auto;
+    padding: var(--primary-size);
+  }
+
+  section {
+    padding: unset;
+  }
+
+  .list {
+    padding-left: calc(var(--tertiary-size) - 4px);
+    gap: calc(var(--tertiary-size) - 6px);
+  }
+}
