@@ -15,12 +15,12 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![screenshot](./screenshot.png)
 
 ### Links
 
-- Solution URL: [Github](https://github.com/gopaladhikari/frontend-mentors/tree/main/qr-code-component-main)
-- Live Site URL: [Netlify](https://gopuadks-qr-code-component.netlify.app/)
+- Solution URL: [Github](https://github.com/gopaladhikari/frontend-mentors/tree/main/recipe-page-main)
+- Live Site URL: [Netlify](https://gopaladhikari-recipe-page-main.netlify.app/)
 
 ## My process
 
