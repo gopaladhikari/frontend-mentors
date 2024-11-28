@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Product preview card component | Frontend Mentor</title>
+    <link rel="stylesheet" href="styles/main.css" />
+  </head>
+  <body>
+    <main role="main" class="fraunces">
+      <article>
+        <figure class="product-image">
+          <picture>
+            <source
+              srcset="./images/image-product-desktop.jpg"
+              media="(min-width: 768px)"
+            />
+
+            <img src="./images/image-product-mobile.jpg" alt="Product" />
+          </picture>
+          <figcaption class="montserrat hidden brand"></figcaption>
+        </figure>
+        <div class="product-info">
+          <span class="montserrat hidden brand">Perfume</span>
+          <h1 class="fraunces">
+            Gabrielle Essence <br />
+            Eaw De Platform
+          </h1>
+          <p class="montserrat product-description">
+            A floral, solar and voluptuous <br />
+            inerpretation composed by Oliver <br />
+            Polge, Perfumer-Creator for the house of <br />
+            CHANEL.
+          </p>
+          <p>
+            <strong class="montserrat actual-price">$149.9</strong>
+            <del class="fraunces deleted-price"> $169.9 </del>
+          </p>
+          <button>
+            <img src="./images/icon-cart.svg" alt="Cart Icon" />
+            Add to cart
+          </button>
+        </div>
+      </article>
+    </main>
+  </body>
+</html>
